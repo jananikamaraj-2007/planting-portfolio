@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planting Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🌱 My Planting Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I'm [Your Name], a passionate gardener and plant lover. I enjoy cultivating plants, designing green spaces, and promoting eco-friendly lifestyles. I believe in the power of nature to inspire and heal.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>🌿 Garden Planning & Design</li>
+      <li>🌻 Organic Planting</li>
+      <li>🌲 Tree Care & Maintenance</li>
+      <li>🌼 Flower Bed Arrangements</li>
+      <li>🪴 Indoor Plant Styling</li>
+      <li>🧑‍🌾 Composting & Soil Enrichment</li>
+    </ul>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage" class="success"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
